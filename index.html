@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Movie Database</title>
+
+  <!-- bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="main-content container mt-5">
+    <h1 class="display-3">Movies Database</h1>
+    <form class="mt-5">
+      <div class="form-group">
+        <div class="row">
+          <label for="search" class="col-lg-2 d-flex align-items-center mb-2">Movie Title</label>
+          <input type="text" class="form-control col-lg-8 mb-2" id="searchInput">
+          <button class="btn btn-info col-lg-2 mb-2" id="searchButton">Search</button>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <section id="movieInfo" class="container jumbotron d-none"></section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

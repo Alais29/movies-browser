@@ -1,0 +1,8 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content label {
+  font-size: 1.5rem;
+}
